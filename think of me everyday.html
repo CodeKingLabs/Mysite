@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f4ed"><meta name="description" content="李昕辰写给你的一个小小世界。敲一下木鱼，把想念留在这里。">
+<title>每一下，都是想你 · 李昕辰</title>
+<style>
+:root{--paper:#f8f4ed;--ink:#493c38;--rose:#a65061;--muted:#82716b;--line:#e5d9cf}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft Yahei',sans-serif}button{font:inherit;cursor:pointer}button,a{-webkit-tap-highlight-color:transparent}button:focus-visible,summary:focus-visible{outline:3px solid var(--rose);outline-offset:6px}header{max-width:1160px;margin:auto;padding:27px 32px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);font-size:12px;letter-spacing:2px}.brand{display:flex;gap:10px;align-items:center}.brand b{color:var(--rose);font-size:18px}.sound{border:1px solid var(--line);background:transparent;border-radius:30px;padding:9px 14px;color:var(--ink);letter-spacing:0}.hero{max-width:1160px;margin:auto;padding:74px 32px 66px;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.eyebrow{font-size:11px;letter-spacing:3px;color:var(--rose);font-weight:600}.intro h1{font-family:'Songti SC','STSong',serif;font-size:clamp(42px,5.8vw,72px);line-height:1.27;font-weight:500;letter-spacing:2px;margin:26px 0}.intro h1 em{font-style:normal;color:var(--rose)}.lead{font-size:15px;line-height:2.2;color:var(--muted);max-width:360px}.signature{display:flex;align-items:center;gap:16px;margin-top:30px;font-size:13px}.signature:before{content:'';width:34px;height:1px;background:var(--rose)}.signature span{font-family:'Songti SC',serif;font-size:23px}.small-note{font-size:11px;color:var(--muted);letter-spacing:1px;margin-top:45px}.wood-panel{position:relative;text-align:center;border:1px solid #e8dbd2;border-radius:190px 190px 24px 24px;background:radial-gradient(ellipse at 50% 33%,#f6e0d9 0, #f2e9de 50%,#f3ece3 100%);padding:38px 22px 27px;min-height:510px;overflow:hidden}.panel-label{font-family:'Songti SC',serif;letter-spacing:5px;font-size:17px}.wood-button{display:block;position:relative;width:min(100%,330px);margin:16px auto 0;border:0;background:none;padding:0;touch-action:manipulation}.wood-button svg{display:block;width:100%;overflow:visible;filter:drop-shadow(0 20px 13px #8051321a)}.wood-button:hover svg{transform:translateY(-3px)}.wood-button .mallet{transform-origin:250px 80px}.wood-button.hit .mallet{animation:knock .22s ease-out}.wood-button.hit .wood{animation:bump .22s ease-out}.counter-label{font-size:12px;color:var(--muted);letter-spacing:2px;margin-top:8px}.count{font-family:Georgia,serif;font-size:64px;line-height:1.15;color:#854453;font-variant-numeric:tabular-nums;margin:7px 0}.count span{font-family:inherit;font-size:14px;color:var(--muted);margin-left:8px}.tap-hint{font-size:12px;color:var(--muted);margin:13px 0}.response{min-height:22px;font-size:13px;color:var(--rose);margin:14px 0 0}.floating{position:absolute;pointer-events:none;color:var(--rose);font-size:18px;font-family:'Songti SC',serif;animation:float 1.4s ease-out forwards;z-index:3;white-space:nowrap}.divider{max-width:1096px;margin:0 auto;border-top:1px solid var(--line);text-align:center}.divider span{position:relative;top:-10px;background:var(--paper);padding:0 25px;color:var(--rose);font-size:14px}.letter-section{max-width:770px;margin:50px auto 70px;padding:0 24px;text-align:center}.letter-section h2{font-size:30px;font-family:'Songti SC',serif;font-weight:500;letter-spacing:3px;margin:12px 0 16px}.letter-section>p{font-size:14px;line-height:2;color:var(--muted)}.envelope{width:100%;max-width:520px;margin:30px auto 0;padding:28px 22px;background:#eee3d6;border:1px solid #ddcbbb;border-radius:5px;box-shadow:0 12px 30px #493c3808;position:relative}.envelope:before{content:'';position:absolute;inset:9px;border:1px solid #ddcbbb;pointer-events:none}.seal{display:inline-grid;place-items:center;background:var(--rose);color:#fff4e9;width:45px;height:45px;border-radius:50%;font-size:22px;margin-right:15px;vertical-align:middle}.envelope-text{font-family:'Songti SC',serif;font-size:18px}.letter{background:#fffdf9;border:1px solid var(--line);max-width:600px;margin:22px auto 0;padding:32px 36px;text-align:left;box-shadow:0 10px 30px #493c3808}.letter[hidden]{display:none}.letter p{font-family:'Songti SC',serif;font-size:17px;line-height:2.2;margin:0 0 18px}.letter .sign{text-align:right;color:var(--rose);margin:25px 0 0}.letter small{font-family:system-ui,sans-serif;font-size:11px;letter-spacing:2px}.footer{border-top:1px solid var(--line);max-width:1096px;margin:auto;padding:27px 24px 35px;display:flex;gap:20px;justify-content:space-between;font-size:11px;color:var(--muted);line-height:1.8}.footer strong{font-weight:400;color:var(--rose)}.privacy{max-width:360px;text-align:right}.notice{font-size:12px;color:var(--rose);padding:0 12px}.decoration{position:absolute;top:96px;left:33px;color:#c48c82;font-size:22px;transform:rotate(-15deg)}.decoration.right{left:auto;right:28px;top:135px;font-size:14px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@keyframes knock{45%{transform:rotate(-19deg)}100%{transform:rotate(0)}}@keyframes bump{40%{transform:translateY(4px) scaleY(.98)}100%{transform:none}}@keyframes float{0%{opacity:0;transform:translateY(0) scale(.8)}20%{opacity:1}100%{opacity:0;transform:translateY(-115px) scale(1.1)}}@media(max-width:740px){header{padding:20px;letter-spacing:1px}.hero{padding:40px 22px;grid-template-columns:1fr;gap:34px}.intro{text-align:center}.intro h1{font-size:46px;margin:20px 0}.lead{margin:auto}.signature{justify-content:center;margin-top:22px}.small-note{margin-top:24px}.wood-panel{max-width:430px;width:100%;margin:auto;min-height:490px}.divider{margin:0 22px}.letter-section{margin:35px auto 45px}.letter{padding:25px 23px}.letter p{font-size:16px}.footer{flex-direction:column;text-align:center;gap:10px}.privacy{max-width:none;text-align:center}.letter-section h2{font-size:26px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.floating{display:none}.wood-button:hover svg{transform:none}}
+
+/* 更紧凑的现代排版 */
+body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
+header{max-width:1060px;padding:18px 24px;letter-spacing:1px}
+.hero{max-width:1060px;padding:36px 24px 32px;grid-template-columns:1fr 1fr;gap:32px}
+.eyebrow{font-size:10px;letter-spacing:2px}
+.intro h1{font-family:inherit;font-weight:600;font-size:clamp(38px,4.5vw,54px);line-height:1.3;letter-spacing:-1.5px;margin:19px 0 20px}
+.intro h1 em{font-weight:500}
+.lead{font-size:14px;line-height:1.95;max-width:390px;color:#756761}
+.signature{margin-top:22px;gap:12px;font-size:12px}
+.signature span{font-family:inherit;font-size:18px;font-weight:500;letter-spacing:1px}
+.small-note{margin-top:24px;letter-spacing:.5px}
+.wood-panel{border-radius:120px 120px 22px 22px;padding:25px 20px 20px;min-height:0}
+.panel-label{font-family:inherit;font-size:13px;font-weight:500;letter-spacing:2px}
+.wood-button{width:min(100%,270px);margin:7px auto 0}
+.counter-label{font-size:11px;letter-spacing:1px;margin-top:0}
+.count{font-family:inherit;font-size:48px;font-weight:300;letter-spacing:-2px;line-height:1.1;margin:7px 0}
+.count span{letter-spacing:0;font-size:12px}
+.tap-hint{margin:10px 0;font-size:11px}.response{margin:10px 0 0;font-size:12px}
+.decoration{top:76px}.decoration.right{top:102px}
+.divider{max-width:1012px}
+.letter-section{max-width:850px;margin:28px auto 35px}
+.letter-section h2{font-family:inherit;font-size:23px;font-weight:500;letter-spacing:0;margin:10px 0}
+.letter-section>p{font-size:13px;margin:8px 0;line-height:1.8}
+.envelope{margin-top:18px;padding:18px 22px;max-width:520px}
+.envelope-text{font-family:inherit;font-size:15px;font-weight:500}.seal{width:36px;height:36px;font-size:19px}
+.letter{margin-top:18px;padding:26px 30px}.letter p{font-family:inherit;font-size:15px;line-height:2;margin-bottom:14px}
+.footer{max-width:1012px;padding:20px 24px 25px;font-size:10px}
+@media(max-width:740px){
+header{padding:15px 20px}.hero{padding:26px 20px 28px;gap:24px;grid-template-columns:1fr}
+.intro h1{font-size:40px;letter-spacing:-1px;margin:15px 0;line-height:1.25}
+.lead{font-size:13px;line-height:1.85}.signature{margin-top:16px}.small-note{margin-top:17px}
+.wood-panel{max-width:380px;padding:23px 18px 18px;min-height:0}.wood-button{width:240px;max-width:100%}
+.count{font-size:44px}.letter-section{margin:25px auto 30px;padding:0 20px}.letter-section h2{font-size:21px;line-height:1.5}
+.letter{padding:22px}.letter p{font-size:14px}.footer{gap:8px}.divider{margin:0 20px}
+}
+
+
+/* 让文案与木鱼形成更紧密的组合 */
+@media(min-width:741px){
+  .hero{max-width:940px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;padding-left:24px;padding-right:24px}
+  .intro{width:100%;max-width:370px;justify-self:end}
+}
+
+
+/* 限制两栏本身的宽度，消除文案右侧的空白 */
+@media(min-width:741px){
+  .hero{max-width:800px;grid-template-columns:minmax(0,340px) minmax(0,360px);justify-content:center;gap:28px;padding:30px 24px}
+  .intro{max-width:none;justify-self:stretch}
+  .intro h1{font-size:44px;line-height:1.28}
+  .intro .eyebrow{font-size:9px;letter-spacing:1.5px}
+  .lead{font-size:14px}
+  .wood-panel{width:100%;border-radius:100px 100px 22px 22px}
+  .wood-button{width:250px}
+}
+
+
+/* 放大阅读字号和木鱼，同时保持两栏紧凑 */
+header{font-size:14px}.sound{font-size:14px;padding:10px 16px}
+.eyebrow{font-size:12px;letter-spacing:1.8px}
+.lead{font-size:17px;line-height:1.9}
+.signature{font-size:15px}.signature span{font-size:24px}
+.small-note{font-size:14px}
+.panel-label{font-size:18px;letter-spacing:2px}
+.wood-button{width:min(100%,340px)}
+.counter-label{font-size:15px;letter-spacing:1px}
+.count{font-size:66px}.count span{font-size:17px}
+.tap-hint{font-size:14px}.response{font-size:15px;min-height:24px}
+.letter-section h2{font-size:29px}.letter-section>p{font-size:16px}
+.envelope-text{font-size:19px}.seal{width:44px;height:44px;font-size:23px}
+.letter p{font-size:18px;line-height:2}.letter small{font-size:13px}
+.footer{font-size:13px}.notice{font-size:14px}
+@media(min-width:741px){
+ .hero{max-width:1010px;grid-template-columns:minmax(0,440px) minmax(0,440px);gap:28px;padding:32px 24px}
+ .intro h1{font-size:58px;line-height:1.27}
+ .intro .eyebrow{font-size:12px;letter-spacing:1.5px}
+ .lead{font-size:17px;max-width:none}
+ .wood-panel{padding:26px 20px 24px;border-radius:125px 125px 24px 24px}
+ .wood-button{width:min(100%,340px)}
+}
+@media(min-width:741px) and (max-width:900px){
+ .intro h1{font-size:49px}.intro .eyebrow{font-size:10px}
+ .lead{font-size:16px}.hero{gap:22px}
+}
+@media(max-width:740px){
+ header{font-size:13px}.hero{padding:28px 20px;gap:25px}
+ .intro h1{font-size:48px}.eyebrow{font-size:10px;letter-spacing:1.5px}
+ .lead{font-size:16px}.signature{font-size:14px}.signature span{font-size:22px}
+ .small-note{font-size:13px}.wood-panel{max-width:420px;padding:26px 16px 22px}
+ .wood-button{width:min(100%,310px)}.panel-label{font-size:17px}
+ .count{font-size:60px}.counter-label{font-size:14px}
+ .tap-hint{font-size:13px}.response{font-size:14px}
+ .letter-section h2{font-size:25px}.letter-section>p{font-size:15px}
+ .envelope-text{font-size:17px}.letter p{font-size:17px}.footer{font-size:12px}
+}
+
+</style>
+</head>
+<body>
+<header><div class="brand"><b>♡</b> 给最特别的你</div><button class="sound" id="sound" aria-pressed="true">声音 · 开</button></header>
+<main>
+<section class="hero">
+<div class="intro"><div class="eyebrow">A LITTLE PLACE FOR YOU & ME</div><h1>每一下，<br>都是<em>想你。</em></h1><p class="lead">我把喜欢藏进这个小小的网页里。<br>不用很隆重，也不必有理由。<br>你想我的时候，就来这里敲一下吧。</p><div class="signature">一直喜欢你的 <span>李昕辰</span></div><p class="small-note">♡ &nbsp; 不赶时间，慢慢喜欢你。</p></div>
+<div class="wood-panel" id="panel"><div class="panel-label">想念小木鱼</div><span class="decoration" aria-hidden="true">✧</span><span class="decoration right" aria-hidden="true">♡</span>
+<button class="wood-button" id="wood" aria-label="敲一下木鱼，想李昕辰一次">
+<svg viewBox="0 0 340 250" aria-hidden="true">
+<defs><radialGradient id="timber" cx="36%" cy="26%" r="80%"><stop stop-color="#dbac72"/><stop offset=".52" stop-color="#bb7d43"/><stop offset="1" stop-color="#804b2a"/></radialGradient><linearGradient id="edge" x2="0" y2="1"><stop stop-color="#aa6a38"/><stop offset="1" stop-color="#6e3d24"/></linearGradient><linearGradient id="stick"><stop stop-color="#e7c99b"/><stop offset="1" stop-color="#b48452"/></linearGradient></defs>
+<ellipse cx="170" cy="217" rx="98" ry="13" fill="#ae8264" opacity=".17"/>
+<g class="wood" style="transform-origin:170px 180px"><path d="M66 151C65 104 107 77 168 80c67-12 112 18 115 62 3 38-31 67-102 69-71 2-112-17-115-60" fill="url(#edge)"/>
+<path d="M65 143c0-44 46-76 104-68 59-14 109 17 112 58 3 44-43 66-106 66-67 0-110-20-110-56" fill="url(#timber)"/>
+<g fill="none" stroke="#f0c48f" opacity=".28" stroke-width="1.6"><path d="M86 139c2-32 37-50 78-46M91 155c24 28 95 34 140 8M103 138c5-21 25-29 47-29M114 153c31 18 66 20 100 8M125 138c8-9 18-12 30-11"/><path d="M195 92c40 0 66 24 65 48M207 109c19 1 35 13 37 28"/></g>
+<path d="M171 83c-7 14-6 29 8 41 12 10 35 15 66 12" fill="none" stroke="#754325" stroke-width="12" stroke-linecap="round"/><path d="M171 84c-5 13-4 25 9 37 12 10 34 15 64 12" fill="none" stroke="#462e23" stroke-width="6" stroke-linecap="round"/>
+<path d="M158 159c-8-15-28-8-24 4 3 9 24 19 24 19s21-15 20-24c-1-12-17-12-20 1" fill="#f0c79b" opacity=".7"/>
+</g>
+<g class="mallet"><path d="M244 82l61-48" stroke="#85542d" stroke-width="15" stroke-linecap="round"/><path d="M244 79l59-47" stroke="url(#stick)" stroke-width="11" stroke-linecap="round"/><ellipse cx="236" cy="87" rx="26" ry="20" transform="rotate(-35 236 87)" fill="#9c6336"/><ellipse cx="233" cy="83" rx="25" ry="19" transform="rotate(-35 233 83)" fill="url(#timber)"/><path d="M218 81q5-12 18-12" fill="none" stroke="#ecc490" stroke-width="3" stroke-linecap="round" opacity=".7"/></g>
+</svg></button>
+<div class="counter-label">你已经想了李昕辰</div><div class="count"><b id="count" style="font-weight:400">0</b><span>次</span></div><p class="tap-hint">轻轻敲一下木鱼，想念 +1</p><p class="response" id="response">第一声想念，留给你。</p><p id="storage-note" class="notice" hidden></p><span class="sr-only" id="announcement" aria-live="polite"></span>
+</div>
+</section>
+<div class="divider" aria-hidden="true"><span>♡</span></div>
+<section class="letter-section"><div class="eyebrow">SOMETHING I WANT TO TELL YOU</div><h2>还有一些话，想悄悄告诉你。</h2><p>敲木鱼是想你，写下这些也是。</p><button class="envelope" id="letter-toggle" aria-expanded="false" aria-controls="letter"><span class="seal" aria-hidden="true">♡</span><span class="envelope-text" id="envelope-text">拆开李昕辰的小情书</span></button>
+<div class="letter" id="letter" hidden><p>亲爱的你：</p><p>如果喜欢有声音，我想，它不一定是很响亮的告白，也可以是这里轻轻的一声「咚」。</p><p>我喜欢你。想把遇见的有趣小事讲给你听，想认真听你说今天过得怎么样，也想在那些平平常常的日子里，陪你一起开心，陪你慢慢往前走。</p><p>这个小木鱼，没有一定要完成的次数。你想起来的时候，来敲一下就好；忙的时候，就先好好照顾自己。我的喜欢，不需要你每天打卡来证明。</p><p>希望你打开这里的时候，能笑一下。因为这个小小的世界，是我特意留给你的。</p><p class="sign">喜欢你的，李昕辰<br><small>WITH LOVE, ALWAYS.</small></p></div></section>
+</main>
+<footer class="footer"><div>一份小小的喜欢，一封慢慢读的信。<br><strong>FROM 李昕辰 · ONLY FOR YOU</strong></div><div class="privacy">想念次数只留在当前设备的浏览器里，<br>不会发送通知，也不会自动同步给李昕辰。</div></footer>
+<script>
+'use strict';
+const key='xinchen-love-knocks-v1';
+let count=0, soundOn=true, audioContext, announcementTimer;
+const counter=document.querySelector('#count'), wood=document.querySelector('#wood'), panel=document.querySelector('#panel');
+try{const raw=localStorage.getItem(key);if(raw!==null){const saved=Number(raw);if(Number.isSafeInteger(saved)&&saved>=0)count=saved;}}catch(e){showStorageNote();}
+counter.textContent=count.toLocaleString('zh-CN');
+function showStorageNote(){const n=document.querySelector('#storage-note');n.hidden=false;n.textContent='当前浏览器无法保存，关闭页面后次数可能丢失。';}
+const words=['想念 +1，喜欢也是。','这一声，替你说了「想你」。','把今天的一点点想念，留在这里。','喜欢你这件事，没有上限。','慢慢敲，我的名字一直在这里。','愿这一刻的你，也有一点点开心。'];
+async function playKnock(){
+ if(!soundOn)return;
+ try{const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)return;
+ audioContext=audioContext||new Audio();if(audioContext.state==='suspended')await audioContext.resume();
+ const t=audioContext.currentTime;
+ [510,830,1260].forEach((freq,i)=>{const o=audioContext.createOscillator(),g=audioContext.createGain();o.type='sine';o.frequency.setValueAtTime(freq,t);o.frequency.exponentialRampToValueAtTime(freq*.82,t+.13);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.16/(i+1),t+.003);g.gain.exponentialRampToValueAtTime(.0001,t+.18);o.connect(g);g.connect(audioContext.destination);o.start(t);o.stop(t+.2);});
+ }catch(e){}
+}
+wood.addEventListener('click',()=>{
+ if(count<Number.MAX_SAFE_INTEGER)count++;
+ counter.textContent=count.toLocaleString('zh-CN');
+ try{localStorage.setItem(key,String(count));}catch(e){showStorageNote();}
+ document.querySelector('#response').textContent=words[(count-1)%words.length];
+ wood.classList.remove('hit');void wood.offsetWidth;wood.classList.add('hit');
+ if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+ const f=document.createElement('span');f.className='floating';f.textContent=count%3===0?'♡ 想你 +1':'想念 +1';f.style.left=(35+Math.random()*23)+'%';f.style.top='180px';panel.appendChild(f);setTimeout(()=>f.remove(),1450);
+ }
+ playKnock();
+ clearTimeout(announcementTimer);announcementTimer=setTimeout(()=>{document.querySelector('#announcement').textContent='已经想了李昕辰 '+count+' 次';},250);
+});
+document.querySelector('#sound').addEventListener('click',function(){soundOn=!soundOn;this.setAttribute('aria-pressed',String(soundOn));this.textContent='声音 · '+(soundOn?'开':'关');});
+document.querySelector('#letter-toggle').addEventListener('click',function(){const letter=document.querySelector('#letter');letter.hidden=!letter.hidden;this.setAttribute('aria-expanded',String(!letter.hidden));document.querySelector('#envelope-text').textContent=letter.hidden?'拆开李昕辰的小情书':'把小情书收好 ♡';});
+window.addEventListener('storage',event=>{if(event.key===key&&event.newValue!==null){const v=Number(event.newValue);if(Number.isSafeInteger(v)&&v>=0){count=v;counter.textContent=count.toLocaleString('zh-CN');}}});
+</script>
+</body>
+</html>
